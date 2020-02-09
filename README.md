@@ -85,13 +85,20 @@ L - 50
 C - 100
 D - 500
 M - 1,000
-
+* Use the necessary node version can be seen in `.nvmrc`
 * Before Running the application make sure that you have installed the dependencies
  via command `yarn` or `npm install`.
+
 * Use command `yarn start` or `npm run start` to run the application. If the browser does not open
  to `http://localhost:3000` you can manually access the application via browser.
 * After successfully running the application an interface should show prompting the user to
  upload a file input. Note: File input should be a txt file. After uploading the text file for input
  it should display the contents of the file next to the button and label.
 * Click process button to process the input and it will show output 
+
+NOTE: You can build the application for optimization of running the application via `yarn build` and then `yarn serve`
+to run the optimized build for the application
+
+
+ 
 
